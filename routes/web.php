@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index.html');
 });
 Route::get('/shops','ApiController@shops');
 Route::get('/shop','ApiController@shop');
